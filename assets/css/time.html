@@ -1,0 +1,93 @@
+<div class = "container-fluid">
+		<div class="row">
+			<form method = "post" >
+				<div class="col-xs-12 col-md-4 eqp container">
+		  			<label>Equipment Details:</br></label>
+		  			
+		  				<div class = "pad">
+		  					<label>Name of Equipment: <input type = "text" class = "form-control inputs" name = "name_of_equip"></label>
+		  				</div>
+		  				<div class = "pad">
+		  					<label>Quantity: <input type = "text" class = "form-control inputs" name = "quantity"></label>
+		  				</div>
+		  				<div class = "pad">
+		  					<label>Type: <select type = "text" style = "width:200px" class = "form-control inputs" name = "type">
+											<option value = "" disabled selected>Type of Equipment</option>
+											<option>Sotware</option>
+											<option>Hardware</option>
+											<option>Electrical Item</option>
+											<option>Furniture</option>
+											<option>Other</option>
+									</select>
+							</label>
+		  				</div>
+		  				<div class = "pad">
+		  					<label>Warranty(in years): <select type = "text" class = "form-control inputs" name = "warranty">
+		  								<option value = "" disabled selected>Years</option>
+		  								<option>1</option>
+		  								<option>2</option>
+		  								<option>3</option>
+		  								<option>4</option>
+		  								<option>5</option>
+		  							</select>
+		  					</label>
+		  				</div>
+		  				<div class = "pad">
+		  					<label>Rate: <input type = "text" class = "form-control inputs" name = "rate"></label>
+		  				</div>
+		  				<div class = "pad">
+		  					<label>Central DSR No: <input type = "text" class = "form-control inputs" value = "KJSCE/COMP/<?php echo $lab_name.'/'; ?>" name = "central_dsr_no"></label>
+		  				</div>
+		  				<div class = "pad">
+		  					<label>Description:<textarea class = "form-control inputs" rows = "3" name = "description"></textarea></label>
+		  				</div>
+	  			
+
+	  			</div>
+		  		<div class="col-xs-12 col-md-4 vendor container">
+		  			
+			  		
+			  			<label>Vendor Details:</label>
+			  			<div class = "pad2">
+			  				<label>Name Of Supplier:<input type = "text" class = "form-control inputs" name = "name_of_vendor" id="suggest" list="nov"></label>
+			  				<datalist id="nov">
+ 				
+							</datalist>
+			  			</div>
+			  			<div class = "pad2">
+			  				<label>Contact No:<input type = "text" class = "form-control inputs" name = "contact_no" id = "con"></label>
+			  			</div>
+			  			<div class = "pad2">
+			  				<label>Address:<textarea rows = "3" class = "form-control inputs" name = "address" id = "add"></textarea></label>
+				  		</div>
+				  		
+			  		
+
+
+
+		  		</div>
+		  		<div class="col-xs-12 col-md-4 container supplier has">
+		  			
+		  				<label>Purchase Details:</label>
+		  				<div class = "pad2">
+		  					<label>Purchase Date:<input type = "date" class = "form-control inputs" name = "purchase_date"></label>
+		  				</div>
+		  				<div class = "pad2">
+		  					<label>Supply Date:<input type = 'date' class = "form-control inputs" name = "supply_date"></label>
+		  				</div>
+		  				<div class = "pad2">
+		  					<label>Purchase Order No:<input type = "text" class = "form-control inputs" name = "purchase_order_no"></label>
+		  				</div>
+		  				<div class = "pad2">
+		  					<label>Bill No:<input type = "text" class = "form-control inputs" name = "bill_no"></label>
+		  				</div>
+		  			
+
+		  		</div>
+		  		<div class = "sub">
+					<input type = "submit" class = "btn btn-default pad2 inputs" value = "Submit"></button>
+				</div>
+			</form>
+	  		
+		</div>
+	</div>	

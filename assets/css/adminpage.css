@@ -1,0 +1,55 @@
+
+
+.header{
+	/*background: #212121;*/
+	margin-top: 0px;
+	color: white;
+	height: wrap-content;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-bottom: 0;
+	background-color: #03647c;
+	margin-right: 0;
+}
+
+.navbar{
+	border: 0;
+	border-radius: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	background-color: #067fa0;
+	color: white;
+}
+
+
+.nav.navbar-nav li a{
+	color: white;
+	font-weight: 10;
+	background-color: #067fa0;
+}
+
+.nav.navbar-nav li+li { 
+	border-left: 1px solid #03647c;
+}
+
+.nav.navbar-nav li a:hover{
+	padding-bottom: 22px;
+	background-color: #E7E7E7;
+}
+
+.navbar.navbar-default .navbar-text{
+	color: white;
+	font-weight: 10;
+}
+
+body{
+	
+	color: white;
+	font-family: 'comic sans ms', sans-serif;
+	font-size: 20px;
+	background-image: url("../../login.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+

@@ -1,0 +1,276 @@
+
+
+.header{
+	/*background: #212121;*/
+	margin-top: 0px;
+	color: #68100d;
+	padding-top: 15px;
+	height: 70px;
+	padding-bottom: 10px;
+	text-align: left;
+    padding-left: 20px;
+	margin-bottom: 0;
+	background-color: white;
+	margin-right: 0;
+	text-align: center;
+
+}
+
+.navbar{
+	border: 0;
+	border-radius: 0;
+	margin-top: 0;
+	margin-bottom: 150px;
+	background-color: #911612;
+	color: white;
+}
+.navbar-nav>li>a {
+    width: 100%;
+}
+
+.container-fluid{
+	padding-right: 0;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .active > a, 
+ .navbar-default .navbar-nav > .active > a:hover, 
+ .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #68100d;
+    color: white;
+}
+body{
+    background-image: url("../../photo5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+    color: white;
+
+}
+.nav.navbar-nav li a{
+	color: white;
+	font-weight: 10;
+    background-color: #911612;
+}
+.navbar.navbar-default .navbar-text{
+	color: white;
+	font-weight: 10;
+}
+.main{
+    background-color: #911612;
+    padding: 5px;
+    color: white;
+}
+.nav.navbar-nav li a {
+    color: white;
+    font-weight: 10;
+}
+.sup{
+    color: #68100d;
+}
+
+.panel-login {
+	border-color:#68100d;
+    width: 800px;
+    margin-left: -100px;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+	color: #68100d;
+	background-color: #fff;
+	border-color:1px solid #911612;
+	text-align:center;
+}
+.panel-login>.panel-heading a{
+	text-decoration: none;
+	color: #911612;
+	font-weight: bold;
+	font-size: 15px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+	color: #68100d;
+	font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	clear: both;
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+	background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+	height: 45px;
+	border: 2px solid #911612;
+	font-size: 16px;
+	-webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+	outline:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+    border: 2px solid #68100d;
+	border-color: #68100d;
+    -webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.btn-login {
+	background-color: #911612;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #68100d;
+    width: 225px;
+}
+.btn-login:hover,
+.btn-login:focus {
+	color: #fff;
+	background-color: #911612;
+	border-color: #68100d;
+    width: 225px;
+}
+.forgot-password {
+	text-decoration: underline;
+	color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+	text-decoration: underline;
+	color: #666;
+}
+
+.btn-register {
+	background-color: #911612;
+	outline: none;
+	color: #fff;
+	font-size: 14px;
+	height: auto;
+	font-weight: normal;
+	padding: 14px 0;
+	text-transform: uppercase;
+	border-color: #911612;
+    width: 235px;
+    align-self: center;
+}
+.btn-register:hover,
+.btn-register:focus {
+	color: #fff;
+	background-color: #68100d;
+	border-color: #68100d;
+    width: 235px;
+    -webkit-transition: all 0.1s linear;
+	-moz-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.form-control{
+    height: 45px;
+	border: 2px solid #68100d;     
+}
+.imp:hover,.imp:focus{
+    border-color: #68100d;  
+    box-shadow: none;
+}
+.form-group{
+    color: #911612;
+}
+label{
+    color : #68100d;
+    margin-bottom: 0px;
+}
+
+.bootstrap-select {
+    width: 225px;
+    outline: none!important;
+    color: #911612;
+    background-color: #f8f8f8;
+    border-left-width: 5px;
+    border-left-color: #68100d;
+}
+.bootstrap-select .btn {
+    width:225px;
+    height: 45px;
+    border-style: solid;
+    border-left-width: 5px;
+    border-left-color: #911612;
+    border-top: 2px solid #911612;
+    border-bottom: 2px solid #911612;
+    border-right: 2px solid #911612;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    color: #911612;
+    background-color: #f8f8f8;
+    outline: none!important;
+}
+.bootstrap-select:hover .btn:hover,
+.bootstrap-select:focus .btn:focus{
+    width:225px;
+    height: 45px;
+    border-style: solid;
+    border-left-width: 5px;
+    border-left-color: #68100d;
+    border-top: 2px solid #68100d;
+    border-bottom: 2px solid #68100d;
+    border-right: 2px solid #68100d;
+    color: white;
+    font-size: 16px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    margin-bottom: 0px;
+    outline: none!important;
+    color: #911612;
+    background-color: #f8f8f8;
+}
+.bootstrap-select .dropdown-menu {
+    border: 2px solid #68100d;
+    outline: none!important;
+    color: #911612;
+    background-color: #f8f8f8;
+    width:225px;
+}
+.bootstrap-select .dropdown-toggle:focus {
+    border: 2px solid #68100d;
+    border-left-width: 5px;
+    border-left-color: #68100d;
+    outline: none!important;
+    color: #911612;
+    background-color: #f8f8f8;
+}
+select::-ms-expand {
+    /* for IE 11 */
+    display: none;
+}
+button{
+    border: 2px solid #68100d;
+    border-left-width: 5px;
+    border-left-color: #68100d;
+}
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default{
+    border: 2px solid #68100d!important;
+    border-left-width: 5px!important;
+    border-left-color: #68100d;
+    color: #911612!important;
+    background-color: #f8f8f8!important;
+}
